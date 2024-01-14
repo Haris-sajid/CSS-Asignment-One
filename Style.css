@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg");
+}
+.container {
+  margin: 0 70px;
+  height: 960px;
+  position: relative;
+}
+nav {
+  height: 80px;
+  background: transparent;
+  padding: 30px;
+}
+.logo {
+  float: left;
+  position: absolute;
+  left: 0%;
+  padding-left: 10px;
+}
+nav ul {
+  position: absolute;
+  list-style: none;
+  right: 0%;
+  /* padding-right: 5px; */
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+nav ul li {
+  display: inline;
+  line-height: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+nav ul :hover {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(65, 169, 249);
+  color: rgb(242, 221, 221);
+}
+.li-home {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(65, 169, 249);
+  color: rgb(242, 221, 221);
+}
+.sign-in {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(250, 141, 8);
+  color: rgb(242, 221, 221);
+}
+.sub-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+
+  padding: 0 10px;
+}
+.text {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  float: left;
+  position: absolute;
+  top: 35%;
+}
+.welcome{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.text h1 {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+.text p {
+  font-size: 17px;
+}
+#searches {
+  width: 450px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 100px;
+
+}
+.srch-btn {
+  width:200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  left: 38.3%;
+  background: #000;
+  background-color: #ee626b;
+  color: white;
+  margin-top: 100px;
+}
+.game-image {
+  float: right;
+  position: absolute;
+  top: 35%;
+  right: 0%;
+  width: 410px;
+  height: 500px;
+  position: relative;
+  
+}
+.game-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.offer-circle {
+  position: absolute;
+  background-color: #ee626b;
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  bottom: -9%;
+  left: -5%;
+}
+.price-tag {
+  position: absolute;
+  background-color: #008af8;
+  width: 65px;
+  height: 30px;
+  border-radius: 25px;
+  top: 2%;
+  right: 2%;
+}
+.price-tag h3 {
+  padding-top: 5px;
+  padding-left: 15px;
+  color: white;
+}
+.offer-circle h2 {
+  padding-top: 35px;
+  padding-left: 25px;
+  color: white;
+}
